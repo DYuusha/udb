@@ -498,9 +498,64 @@ h1, h2, h3, h4, h5,
     max-height: 600px;
   }
   .naming-right{
+   
     position:absolute;
-    right: 0;
+    float: right;
+    right: 3%;
+    top:35%;
   }
+  .naming-left{
+   
+    position:absolute;
+    float: left;
+    left: 3%;
+    top:35%;
+  }
+.naming-right img{
+  width: 40px;
+}
+.naming-left img{
+  width: 40px;
+}
   .main-banner-div{
+    max-width: 100%;
     position: relative;
+  }
+  .main-banner-div-ads{
+    max-width: 100%;
+    position: relative;
+  }
+  .ads-right{
+    position:absolute;
+    float: right;
+    right: 10%;
+    top:100%;
+  }
+  .ads-left{
+    position:absolute;
+    float: left;
+    left: 10%;
+    top:100%;
+  }
+  .ads-right img{
+    width: 206px;
+  }
+  .ads-left img{
+    width: 109px;
+  }
+  .bgimg{
+    background-color: #000;
+    height:70rem;
+  }
+  /* .relative-section-4{
+    position:relative;
+  } */
+  .cellphone img{
+    max-width: 685px;
+  }
+  /* .knowmore{
+    height: 70rem;
+  } */
+  .section-3{
+    padding-top: 3rem;
   }

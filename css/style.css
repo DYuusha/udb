@@ -725,7 +725,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 .h-section {
-  height: 50rem;
+  height: 85rem;
   background-color: black;
 }
 
@@ -740,6 +740,11 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   background-repeat: no-repeat;
   background-size: 70px 160px;
 }
+
+#carousel-ilustracion, #carousel-editorial, #carousel-uxui, #carousel-branding, #carousel-digital{
+  visibility: hidden;
+}
+
 .element-second {
   background: url('/images/seccion2/iconoeditorial.png');
   background-repeat: no-repeat;
@@ -791,7 +796,19 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   height: 160px;
   width: 70px;
 }
+.textura{
+  background: url('/images/inicio/textura.png') ;
+  background-repeat: no-repeat;
+  background-size: 150rem 90rem;
 
+}
 .element-h:hover{
   opacity: 1;
 }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
+

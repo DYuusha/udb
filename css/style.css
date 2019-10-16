@@ -769,7 +769,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   .cellphone img{
     max-width: 38rem;
     position: absolute;
-    top:-20rem;
+    top:-5rem;
     left:15%;
   }
   .knowmore{
@@ -902,7 +902,7 @@ box-shadow: 1px -40px 30px 5px rgba(0,0,0,0.55);
 .textura{
   background: url('/images/inicio/textura.png') ;
   background-repeat: no-repeat;
-  background-size: 150rem 90rem;
+  background-size: 100% 90rem;
 
 }
 .element-h:hover{

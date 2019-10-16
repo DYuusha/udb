@@ -967,3 +967,12 @@ a:hover{
   margin-top:20rem;
   width: 10rem;
 }
+
+video {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .5s ease-out;
+  -moz-transition: opacity .5s ease-out;
+  -webkit-transition: opacity .5s ease-out;
+  -o-transition: opacity .5s ease-out;
+}

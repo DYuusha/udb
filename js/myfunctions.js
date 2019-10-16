@@ -64,9 +64,38 @@ showBranding = () => {
 }
 
 hideBranding = () => {
-    
+
     let il = document.getElementById('carousel-branding')
     il.style.visibility = 'hidden';
     document.getElementById('morph19').style.visibility = 'visible';
 
 }
+
+$(document).ready(function () {
+    $(window).scroll(function () {
+        // alert(($(window).scrollTop() / 10000))
+        if($(window).scrollTop() / 10000 < 0.17 ){
+            $('.subsection-4').css("opacity", 1 - (($(window).scrollTop() / 10000) + 0.5))
+        }
+        else if($(window).scrollTop() / 10000 < 0.16){
+            $('.subsection-4').css("opacity", 1 - (($(window).scrollTop() / 10000) + 0.1))
+
+        }
+        else if($(window).scrollTop() / 10000 < 0.15){
+            $('.subsection-4').css("opacity", 1 - (($(window).scrollTop() / 10000) + 0.7))
+
+        }
+        else if($(window).scrollTop() / 10000 < 0.14){
+            $('.subsection-4').css("opacity", 1 - (($(window).scrollTop() / 10000) + 0.7))
+
+        }
+        else if($(window).scrollTop() / 10000 < 0.18){
+            $('.subsection-4').css("opacity", 1 - (($(window).scrollTop() / 10000) + 0.3))
+
+        }
+        else{
+            $('.subsection-4').css("opacity", 1)
+            
+        }
+    })
+}) 

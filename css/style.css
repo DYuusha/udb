@@ -822,7 +822,7 @@ box-shadow: 1px -40px 30px 5px rgba(0,0,0,0.55);
   width: 12rem;
 }
 .h-section {
-  height: 50rem;
+  height: 85rem;
   background-color: black;
 }
 .sponsor img{
@@ -843,6 +843,11 @@ box-shadow: 1px -40px 30px 5px rgba(0,0,0,0.55);
   background-repeat: no-repeat;
   background-size: 70px 160px;
 }
+
+#carousel-ilustracion, #carousel-editorial, #carousel-uxui, #carousel-branding, #carousel-digital{
+  visibility: hidden;
+}
+
 .element-second {
   background: url('../images/seccion2/iconoeditorial.png');
   background-repeat: no-repeat;
@@ -894,7 +899,19 @@ box-shadow: 1px -40px 30px 5px rgba(0,0,0,0.55);
   height: 160px;
   width: 70px;
 }
+.textura{
+  background: url('/images/inicio/textura.png') ;
+  background-repeat: no-repeat;
+  background-size: 150rem 90rem;
 
+}
 .element-h:hover{
   opacity: 1;
 }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
+

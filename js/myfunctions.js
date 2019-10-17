@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    console.log( "ready!" );
+    console.log("ready!");
 
     $(window).scroll(function () {
         // alert(($(window).scrollTop() / 10000))
@@ -152,26 +152,28 @@ hideBranding = () => {
 }
 
 showCover = () => {
-    let first = document.getElementById('home_background')
-    let second = document.getElementById('home_cover')
     let crea = document.getElementById('creatividad')
-    second.play()
+    crea.style.opacity = 0
+    let first = document.getElementById('home_background')
     first.style.display = 'none';
+    let second = document.getElementById('home_cover')
+    first.pause()
+    second.play()
     second.style.display = 'block';
-    crea.style.visibility = 'hidden'
 }
 hideCover = () => {
+    let crea = document.getElementById('creatividad')
+    crea.style.opacity = 1
     let first = document.getElementById('home_background')
     let second = document.getElementById('home_cover')
-    let crea = document.getElementById('creatividad')
+    second.pause()
     first.play()
     second.style.display = 'none';
     first.style.display = 'block';
-    crea.style.visibility = 'visible'
 }
 
 
-function playVideo (){
+function playVideo() {
     var first = document.getElementById('home_background')
     first.play()
 

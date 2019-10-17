@@ -81,12 +81,12 @@
       data-property="{videoURL:'https://www.youtube.com/watch?v=3P6bEAlW-Vw',showYTLogo:false, showAnnotations: false, showControls: false, cc_load_policy: false, containment:'#home-section',autoPlay:true, mute:true, startAt:255, stopAt: 271, opacity:1}">
     </a> -->
 
-    <div class="position-relative h-100" data-stellar-background-ratio="0.5" onload="playVideo()">
-      <video id='home_background' class="thevideo" width="100%" height="100%" loop autoplay>
+    <div class="position-relative h-100" data-stellar-background-ratio="0.5">
+      <video id='home_background' class="thevideo" width="100%" height="100%" loop autoplay muted>
         <source src="./images/inicio/video_background.mp4" type="video/ogg">
         Your browser does not support the video tag.
       </video>
-      <video id='home_cover' class="thevideo" width="100%" height="100%" loop autoplay>
+      <video id='home_cover' class="thevideo" width="100%" height="100%" loop autoplay muted>
         <source src="./images/inicio/cover_home.mp4" type="video/ogg">
         Your browser does not support the video tag.
       </video>

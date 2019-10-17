@@ -697,8 +697,8 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
     line-height: 14px;
   }
   .menu-logo{
-    width: 50px;
-    height: 90px;
+    width: 25px;
+    height: 50px;
   }
   .main-banner{
     width: 100%;
@@ -766,10 +766,11 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
     left:15%;
   }
   .knowmore{
-    padding-top: 3rem;
     height: 40rem;
   }
   .knowmoreImage{
+    position: absolute;
+    top:50%;
     width:15rem;
   }
   /* .section-3{
@@ -788,7 +789,8 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 .section-4{
   background-color: #000;
-  height: 20rem;
+  padding-top:10rem;
+  height: 30rem;
   position: relative;
   -webkit-box-shadow: 1px -40px 30px 5px rgba(0,0,0,0.55);
 -moz-box-shadow: 1px -40px 30px 5px rgba(0,0,0,0.55);

@@ -116,7 +116,6 @@ hideCover = () => {
     let second = document.getElementById('home_cover')
     let crea = document.getElementById('creatividad')
     crea.style.visibility = 'visible'
-    first.play();
     first.style.display = 'block';
     second.style.display = 'none';
 }

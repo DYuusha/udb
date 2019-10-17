@@ -103,6 +103,24 @@ showBranding = () => {
 
 }
 
+showCover = () => {
+    let first = document.getElementById('home_background')
+    let second = document.getElementById('home_cover')
+    let crea = document.getElementById('creatividad')
+    crea.style.visibility = 'hidden'
+    first.style.display = 'none';
+    second.style.display = 'block';
+}
+hideCover = () => {
+    let first = document.getElementById('home_background')
+    let second = document.getElementById('home_cover')
+    let crea = document.getElementById('creatividad')
+    crea.style.visibility = 'visible'
+    first.play();
+    first.style.display = 'block';
+    second.style.display = 'none';
+}
+
 hideBranding = () => {
 
     let il = document.getElementById('carousel-branding')

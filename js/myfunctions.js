@@ -1,3 +1,35 @@
+$(document).ready(function () {
+    $(window).scroll(function () {
+        // alert(($(window).scrollTop() / 10000))
+        if ($(window).scrollTop() / 10000 < 0.17) {
+            $('.subsection-4').css("opacity", 1 - (($(window).scrollTop() / 10000) + 0.5))
+        }
+        else if ($(window).scrollTop() / 10000 < 0.16) {
+            $('.subsection-4').css("opacity", 1 - (($(window).scrollTop() / 10000) + 0.1))
+
+        }
+        else if ($(window).scrollTop() / 10000 < 0.15) {
+            $('.subsection-4').css("opacity", 1 - (($(window).scrollTop() / 10000) + 0.7))
+
+        }
+        else if ($(window).scrollTop() / 10000 < 0.14) {
+            $('.subsection-4').css("opacity", 1 - (($(window).scrollTop() / 10000) + 0.7))
+
+        }
+        else if ($(window).scrollTop() / 10000 < 0.18) {
+            $('.subsection-4').css("opacity", 1 - (($(window).scrollTop() / 10000) + 0.3))
+
+        }
+        else {
+            $('.subsection-4').css("opacity", 1)
+
+        }
+    })
+})
+
+
+
+
 showIlustration = () => {
     let il = document.getElementById('carousel-ilustracion')
     il.style.visibility = 'visible';
@@ -121,6 +153,7 @@ showCover = () => {
     let first = document.getElementById('home_background')
     let second = document.getElementById('home_cover')
     let crea = document.getElementById('creatividad')
+    second.play()
     first.style.display = 'none';
     second.style.display = 'block';
     crea.style.visibility = 'hidden'
@@ -130,40 +163,10 @@ hideCover = () => {
     let first = document.getElementById('home_background')
     let second = document.getElementById('home_cover')
     let crea = document.getElementById('creatividad')
+    first.play()
     first.style.display = 'block';
     second.style.display = 'none';
     crea.style.visibility = 'visible'
-
 }
-
-
-$(document).ready(function () {
-    $(window).scroll(function () {
-        // alert(($(window).scrollTop() / 10000))
-        if ($(window).scrollTop() / 10000 < 0.17) {
-            $('.subsection-4').css("opacity", 1 - (($(window).scrollTop() / 10000) + 0.5))
-        }
-        else if ($(window).scrollTop() / 10000 < 0.16) {
-            $('.subsection-4').css("opacity", 1 - (($(window).scrollTop() / 10000) + 0.1))
-
-        }
-        else if ($(window).scrollTop() / 10000 < 0.15) {
-            $('.subsection-4').css("opacity", 1 - (($(window).scrollTop() / 10000) + 0.7))
-
-        }
-        else if ($(window).scrollTop() / 10000 < 0.14) {
-            $('.subsection-4').css("opacity", 1 - (($(window).scrollTop() / 10000) + 0.7))
-
-        }
-        else if ($(window).scrollTop() / 10000 < 0.18) {
-            $('.subsection-4').css("opacity", 1 - (($(window).scrollTop() / 10000) + 0.3))
-
-        }
-        else {
-            $('.subsection-4').css("opacity", 1)
-
-        }
-    })
-})
 
 

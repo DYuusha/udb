@@ -103,22 +103,6 @@ showBranding = () => {
 
 }
 
-showCover = () => {
-    let first = document.getElementById('home_background')
-    let second = document.getElementById('home_cover')
-    let crea = document.getElementById('creatividad')
-    crea.style.visibility = 'hidden'
-    first.style.display = 'none';
-    second.style.display = 'block';
-}
-hideCover = () => {
-    let first = document.getElementById('home_background')
-    let second = document.getElementById('home_cover')
-    let crea = document.getElementById('creatividad')
-    crea.style.visibility = 'visible'
-    first.style.display = 'block';
-    second.style.display = 'none';
-}
 
 hideBranding = () => {
 
@@ -132,6 +116,26 @@ hideBranding = () => {
     document.getElementById('morph19').style.visibility = 'visible';
 
 }
+
+showCover = () => {
+    let first = document.getElementById('home_background')
+    let second = document.getElementById('home_cover')
+    let crea = document.getElementById('creatividad')
+    first.style.display = 'none';
+    second.style.display = 'block';
+    crea.style.visibility = 'hidden'
+
+}
+hideCover = () => {
+    let first = document.getElementById('home_background')
+    let second = document.getElementById('home_cover')
+    let crea = document.getElementById('creatividad')
+    first.style.display = 'block';
+    second.style.display = 'none';
+    crea.style.visibility = 'visible'
+
+}
+
 
 $(document).ready(function () {
     $(window).scroll(function () {

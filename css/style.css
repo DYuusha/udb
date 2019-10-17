@@ -1253,10 +1253,9 @@ video {
 }
 
 #creatividad {
-  z-index: 1;
-  left: 48rem;
+  left: 45rem;
   top: 65rem;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 #home_cover {

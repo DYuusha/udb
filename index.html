@@ -34,10 +34,11 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 </head>
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="background-color: black;">
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="background-color: black;"   onmousemove="playVideo()" onmouseover="playVideo()">
 
   <div class="site-wrap">
 
@@ -80,7 +81,7 @@
       data-property="{videoURL:'https://www.youtube.com/watch?v=3P6bEAlW-Vw',showYTLogo:false, showAnnotations: false, showControls: false, cc_load_policy: false, containment:'#home-section',autoPlay:true, mute:true, startAt:255, stopAt: 271, opacity:1}">
     </a> -->
 
-    <div class="position-relative h-100" data-stellar-background-ratio="0.5">
+    <div class="position-relative h-100" data-stellar-background-ratio="0.5" onload="playVideo()">
       <video id='home_background' class="thevideo" width="100%" height="100%" loop autoplay>
         <source src="./images/inicio/video_background.mp4" type="video/ogg">
         Your browser does not support the video tag.

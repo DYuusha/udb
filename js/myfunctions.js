@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    console.log( "ready!" );
+
     $(window).scroll(function () {
         // alert(($(window).scrollTop() / 10000))
         if ($(window).scrollTop() / 10000 < 0.17) {
@@ -157,16 +159,20 @@ showCover = () => {
     first.style.display = 'none';
     second.style.display = 'block';
     crea.style.visibility = 'hidden'
-
 }
 hideCover = () => {
     let first = document.getElementById('home_background')
     let second = document.getElementById('home_cover')
     let crea = document.getElementById('creatividad')
     first.play()
-    first.style.display = 'block';
     second.style.display = 'none';
+    first.style.display = 'block';
     crea.style.visibility = 'visible'
 }
 
 
+function playVideo (){
+    var first = document.getElementById('home_background')
+    first.play()
+
+}

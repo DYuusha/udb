@@ -700,8 +700,8 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 .menu-logo {
-  width: 50px;
-  height: 90px;
+  width: 25px;
+  height: 50px;
 }
 
 .main-banner {
@@ -770,7 +770,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 .cellphone {
-  height: 40rem;
+  height: 50rem;
   position: relative;
 }
 
@@ -782,12 +782,13 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 .knowmore {
-  padding-top: 3rem;
-  height: 40rem;
+  height: 50rem;
 }
 
 .knowmoreImage {
   width: 15rem;
+  position: absolute;
+  top: 30%;
 }
 
 /* .section-3{
@@ -797,7 +798,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 .sec-3-naming-left {
   position: absolute;
   float: left;
-  left: 3%;
+  left: 7rem;
   top: 3%;
 }
 
@@ -807,8 +808,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 
 .section-4 {
   background-color: #000;
-  padding-top:10rem;
-  height: 30rem;
+  height: 40rem;
   position: relative;
   -webkit-box-shadow: 1px -40px 30px 5px rgba(0, 0, 0, 0.55);
   -moz-box-shadow: 1px -40px 30px 5px rgba(0, 0, 0, 0.55);
@@ -974,6 +974,7 @@ a:hover {
   width: 25rem;
   top: 65%;
   left: -3%;
+  opacity: 0.3;
 }
 
 .sixtynine img {
@@ -981,6 +982,7 @@ a:hover {
   width: 95rem;
   top: 0;
   right: -25%;
+  opacity: 0.3;
 }
 
 .crowne img {
@@ -997,13 +999,28 @@ a:hover {
   width: 15rem;
 }
 
-.social img {
+.social{
   margin-top: 10rem;
   position: absolute;
-  right: 20%;
-  width: 15rem;
+  right: 20%; 
 }
-
+.in img{
+  width: 38px;
+  height: 38px;
+}
+.fb img{
+  height: 42px;
+  width: 19px;
+  margin-right: 20px
+}
+.redes{
+  position: absolute;
+  right: 20%;
+  bottom: 0;
+}
+.redes img{
+  width: 186px;
+}
 .logofooter img {
   margin-top: 20rem;
   width: 10rem;

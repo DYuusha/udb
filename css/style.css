@@ -1234,6 +1234,13 @@ video {
   visibility: visible;
 }
 
+#creatividad {
+  z-index: 1;
+  left: 48rem;
+  top: 65rem;
+  cursor: pointer;  
+}
+
 #home_cover {
   display: none;
 }

@@ -175,6 +175,9 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 .site-navbar .site-navigation .site-menu {
   margin-bottom: 0;
 }
+.morph19{
+  height: 5rem;
+}
 
 .site-navbar .site-navigation .site-menu .active {
   color: #6AFBFF;
@@ -1064,7 +1067,6 @@ a:hover {
   .h-section {
     height: 83rem;
   }
-
 }
 
 @media (max-width: 1366px) {
@@ -1151,6 +1153,9 @@ a:hover {
     width: 28px;
     height: 28px;
   }
+  .morph19{
+    height: 4rem;
+  }
   .fb img {
     height: 30px;
     width: 15px;
@@ -1210,6 +1215,12 @@ a:hover {
   .h-section {
     height: 35rem;
   }
+  .element-h {
+    cursor: pointer;
+    opacity: 0.3;
+    height: 50px;
+    width: 20px;
+  }
   .footer-section {
     height: 45rem;
   }
@@ -1231,6 +1242,9 @@ a:hover {
   }
   .header {
     top: 10%;
+  }
+  .morph19{
+    height: 2rem;
   }
   /* .redes{
     bottom: -4rem;
@@ -1254,6 +1268,15 @@ a:hover {
     max-width: 20rem;
     top: -10rem;
     left: 15%;
+  }
+  .textura {
+    background-size: 100% 22rem;
+  }
+  .sponsor img {
+    width: 8rem;
+  }
+  .sponsor2 img {
+    width: 10rem;
   }
   .knowmore {
     height: 25rem;
@@ -1288,6 +1311,12 @@ a:hover {
   }
   .ads-left img {
     width: 60px;
+  }
+  .element-second, .element-third, .element-fifth, .element-first, .element-fourth, .element-second:hover, .element-third:hover, .element-fifth:hover, .element-first:hover, .element-fourth:hover {
+    background-size: 15px 35px;
+  }
+  .h-section {
+    height: 22rem;
   }
   .ads-right img {
     width: 140px;
@@ -1353,3 +1382,4 @@ video {
 .h-main {
   height: 80rem;
 }
+

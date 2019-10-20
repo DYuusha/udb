@@ -1073,6 +1073,9 @@ a:hover {
   .sixtynine img {
     width: 35rem;
   }
+  .h-section{
+    height: 76rem;
+  }
 }
 
 @media (max-width: 1024px) {

@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   padding: 4em 0;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .site-footer {
     padding: 8em 0;
   }
@@ -1057,19 +1057,20 @@ a:hover {
   height: 95rem;
 }
 
-
 @media (max-width: 1600px) {
   .sixtynine img {
     width: 35rem;
   }
-  
+  .h-section {
+    height: 83rem;
+  }
+
 }
 
 @media (max-width: 1366px) {
   .sixtynine img {
     width: 35rem;
   }
-
 }
 
 @media (max-width: 1024px) {
@@ -1082,7 +1083,7 @@ a:hover {
     top: 65%;
     left: -4%;
   }
-  .h-section{
+  .h-section {
     height: 57rem;
   }
   .footer-section {
@@ -1339,10 +1340,10 @@ video {
 }
 
 #creatividad {
-  left: 56rem;
-  top: 75rem;
+  left: 32%;
+  top: 80%;
   cursor: pointer;
-  height: 100px;
+  height: 12%;
 }
 
 #home_cover {

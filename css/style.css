@@ -1153,7 +1153,7 @@ a:hover {
     font-family: 'acumin', sans-serif;
   }
   .section-4 {
-    height: 28rem;
+    height: 45rem;
   }
   .knowmoreImage {
     width: 10rem;
@@ -1173,7 +1173,7 @@ a:hover {
     min-height: 500px;
   }
   .section-4 {
-    height: 32rem;
+    height: 55rem;
   }
   .sixtynine img {
     width: 25rem;
@@ -1297,6 +1297,9 @@ a:hover {
   }
   .social{
     margin-top: 2rem;
+  }
+  .section-4 {
+    height: 65rem;
   }
 }
 

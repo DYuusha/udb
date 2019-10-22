@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   padding: 4em 0;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .site-footer {
     padding: 8em 0;
   }
@@ -174,6 +174,9 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 
 .site-navbar .site-navigation .site-menu {
   margin-bottom: 0;
+}
+.morph19{
+  height: 5rem;
 }
 
 .site-navbar .site-navigation .site-menu .active {
@@ -791,11 +794,11 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   top: 30%;
 }
 
- .section-3{
-  -webkit-box-shadow: inset 1px 40px 30px 5px rgba(0,0,0,0.75);
-  -moz-box-shadow: inset 1px 40px 30px 5px rgba(0,0,0,0.75);
-  box-shadow: inset 1px 40px 30px 5px rgba(0,0,0,0.75);
-  } 
+.section-3 {
+  -webkit-box-shadow: inset 1px 40px 30px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 1px 40px 30px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 1px 40px 30px 5px rgba(0, 0, 0, 0.75);
+}
 
 .sec-3-naming-left {
   position: absolute;
@@ -841,8 +844,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 .h-section {
-  height: 85rem;
-  background-color: black;
+  height: 76rem;
 }
 
 .sponsor img {
@@ -1001,59 +1003,78 @@ a:hover {
   width: 15rem;
 }
 
-.social{
+.social {
   margin-top: 5rem;
   /* position: absolute;
   margin: 0 auto;
   width: 100%;  */
 }
-.in img{
+
+.in img {
   width: 38px;
   height: 38px;
   /* margin-left:10px ; */
   padding-left: 5px;
 }
-.in{
+
+.in {
   padding-left: 1.5rem;
 }
-.fb{
+
+.fb {
   padding-right: 3.5rem;
 }
-.fb img{
+
+.fb img {
   height: 42px;
   width: 19px;
   /* margin-right: 10px; */
- 
 }
-.redes{
+
+.redes {
   position: absolute;
   right: 20%;
   bottom: 0;
 }
-.redes img{
+
+.redes img {
   width: 186px;
 }
+
 .logofooter img {
   margin-top: 5rem;
   width: 10rem;
 }
-.fb img:hover{
+
+.fb img:hover {
   opacity: 0.60;
 }
-.in img:hover{
+
+.in img:hover {
   opacity: 0.60;
 }
+
 /* responsive */
+
+.h-section {
+  height: 95rem;
+}
 
 @media (max-width: 1600px) {
   .sixtynine img {
     width: 35rem;
+  }
+  .h-section {
+    height: 83rem;
   }
 }
 
 @media (max-width: 1366px) {
   .sixtynine img {
     width: 35rem;
+  }
+  .h-section{
+    height: 76rem;
   }
 }
 
@@ -1066,6 +1087,9 @@ a:hover {
     width: 20rem;
     top: 65%;
     left: -4%;
+  }
+  .h-section {
+    height: 57rem;
   }
   .footer-section {
     height: 55rem;
@@ -1122,22 +1146,30 @@ a:hover {
     left: 20%;
     width: 10rem;
   }
-
-  .in img{
+  .h-section {
+    height: 43rem;
+  }
+  .element-second, .element-third, .element-fifth, .element-first, .element-fourth, .element-second:hover, .element-third:hover, .element-fifth:hover, .element-first:hover, .element-fourth:hover {
+    background-size: 40px 100px;
+  }
+  .in img {
     width: 28px;
     height: 28px;
   }
-  .fb img{
+  .morph19{
+    height: 4rem;
+  }
+  .fb img {
     height: 30px;
     width: 15px;
   }
   .crowne img {
     width: 15rem;
   }
-  .redes{
+  .redes {
     bottom: -1.5rem;
   }
-  .redes img{
+  .redes img {
     width: 116px;
   }
   .intro-section, .intro-section .container .row {
@@ -1183,6 +1215,15 @@ a:hover {
     top: 70%;
     left: -5%;
   }
+  .h-section {
+    height: 35rem;
+  }
+  .element-h {
+    cursor: pointer;
+    opacity: 0.3;
+    height: 50px;
+    width: 20px;
+  }
   .footer-section {
     height: 45rem;
   }
@@ -1193,23 +1234,26 @@ a:hover {
     margin-top: 4rem;
     width: 7rem;
   }
-  .in{
+  .in {
     padding-left: 1.25rem;
   }
-  .fb{
+  .fb {
     padding-right: 2.25rem;
   }
   .crowne img {
     width: 10rem;
   }
-  
-.header {
-  top: 10%;
-}
+  .header {
+    top: 10%;
+  }
+  .morph19{
+    height: 2rem;
+  }
   /* .redes{
     bottom: -4rem;
   } */
 }
+
 @media(max-width:500px) {
   .sixtynine img {
     width: 20rem;
@@ -1227,6 +1271,15 @@ a:hover {
     max-width: 20rem;
     top: -10rem;
     left: 15%;
+  }
+  .textura {
+    background-size: 100% 22rem;
+  }
+  .sponsor img {
+    width: 8rem;
+  }
+  .sponsor2 img {
+    width: 10rem;
   }
   .knowmore {
     height: 25rem;
@@ -1247,7 +1300,6 @@ a:hover {
   .relative-footer {
     height: 30rem;
   }
-
   .date img {
     margin-top: 1rem;
     left: 15%;
@@ -1263,6 +1315,12 @@ a:hover {
   .ads-left img {
     width: 60px;
   }
+  .element-second, .element-third, .element-fifth, .element-first, .element-fourth, .element-second:hover, .element-third:hover, .element-fifth:hover, .element-first:hover, .element-fourth:hover {
+    background-size: 15px 35px;
+  }
+  .h-section {
+    height: 22rem;
+  }
   .ads-right img {
     width: 140px;
   }
@@ -1275,11 +1333,10 @@ a:hover {
   .site-mobile-menu {
     width: 60%;
   }
-  .redes{
+  .redes {
     bottom: -2rem;
   }
-
-  .redes img{
+  .redes img {
     width: 96px;
   }
   .crowne img {
@@ -1289,13 +1346,13 @@ a:hover {
     margin-top: 2rem;
     width: 6rem;
   }
-  .in{
+  .in {
     padding-left: 1rem;
   }
-  .fb{
+  .fb {
     padding-right: 2rem;
   }
-  .social{
+  .social {
     margin-top: 2rem;
   }
   .section-4 {
@@ -1318,9 +1375,10 @@ video {
 }
 
 #creatividad {
-  left: 40rem;
-  top: 65rem;
+  left: 32%;
+  top: 80%;
   cursor: pointer;
+  height: 12%;
 }
 
 #home_cover {
@@ -1330,3 +1388,4 @@ video {
 .h-main {
   height: 80rem;
 }
+

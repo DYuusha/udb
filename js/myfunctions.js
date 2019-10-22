@@ -39,7 +39,7 @@ showIlustration = () => {
     vid.style.visibility = 'visible';
     vid.style.opacity = 1;
     vid.play();
-    document.getElementById('morph19').style.visibility = 'hidden';
+    document.getElementById('morphDate').style.visibility = 'hidden';
 
 }
 
@@ -52,7 +52,7 @@ hideIlustration = () => {
     vid.style.opacity = 0;
     vid.pause();
     vid.currentTime = 0;
-    document.getElementById('morph19').style.visibility = 'visible';
+    document.getElementById('morphDate').style.visibility = 'visible';
 
 }
 
@@ -64,7 +64,7 @@ showDigital = () => {
     vid.style.visibility = 'visible';
     vid.style.opacity = 1;
     vid.play();
-    document.getElementById('morph19').style.visibility = 'hidden';
+    document.getElementById('morphDate').style.visibility = 'hidden';
 
 }
 
@@ -77,7 +77,7 @@ hideDigital = () => {
     vid.style.opacity = 0;
     vid.pause();
     vid.currentTime = 0;
-    document.getElementById('morph19').style.visibility = 'visible';
+    document.getElementById('morphDate').style.visibility = 'visible';
 
 }
 showUXUI = () => {
@@ -87,7 +87,7 @@ showUXUI = () => {
     vid.style.visibility = 'visible';
     vid.style.opacity = 1;
     vid.play();
-    document.getElementById('morph19').style.visibility = 'hidden';
+    document.getElementById('morphDate').style.visibility = 'hidden';
 
 }
 
@@ -100,7 +100,7 @@ hideUXUI = () => {
     vid.style.opacity = 0;
     vid.pause();
     vid.currentTime = 0;
-    document.getElementById('morph19').style.visibility = 'visible';
+    document.getElementById('morphDate').style.visibility = 'visible';
 
 }
 showEditorial = () => {
@@ -110,7 +110,7 @@ showEditorial = () => {
     vid.style.visibility = 'visible';
     vid.style.opacity = 1;
     vid.play();
-    document.getElementById('morph19').style.visibility = 'hidden';
+    document.getElementById('morphDate').style.visibility = 'hidden';
 
 }
 
@@ -123,7 +123,7 @@ hideEditorial = () => {
     vid.style.opacity = 0;
     vid.pause();
     vid.currentTime = 0;
-    document.getElementById('morph19').style.visibility = 'visible';
+    document.getElementById('morphDate').style.visibility = 'visible';
 
 }
 showBranding = () => {
@@ -133,7 +133,7 @@ showBranding = () => {
     vid.style.visibility = 'visible';
     vid.style.opacity = 1;
     vid.play();
-    document.getElementById('morph19').style.visibility = 'hidden';
+    document.getElementById('morphDate').style.visibility = 'hidden';
 
 }
 
@@ -147,7 +147,7 @@ hideBranding = () => {
     vid.style.opacity = 0;
     vid.pause();
     vid.currentTime = 0;
-    document.getElementById('morph19').style.visibility = 'visible';
+    document.getElementById('morphDate').style.visibility = 'visible';
 
 }
 

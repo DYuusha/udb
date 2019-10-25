@@ -983,7 +983,7 @@ a:hover {
 
 .sixtynine img {
   position: absolute;
-  width: 55rem;
+  width: 50rem;
   top: 0;
   right: 0;
   opacity: 0.3;
@@ -1003,12 +1003,12 @@ a:hover {
   width: 15rem;
 }
 
-.social {
+/* .social {
   margin-top: 5rem;
   /* position: absolute;
   margin: 0 auto;
-  width: 100%;  */
-}
+  width: 100%; 
+} */
 
 .in img {
   width: 38px;
@@ -1062,7 +1062,7 @@ a:hover {
 
 @media (max-width: 1600px) {
   .sixtynine img {
-    width: 35rem;
+    width: 45rem;
   }
   .h-section {
     height: 83rem;
@@ -1353,7 +1353,7 @@ a:hover {
     padding-right: 2rem;
   }
   .social {
-    margin-top: 2rem;
+    margin-top: 0rem;
   }
   .section-4 {
     height: 65rem;

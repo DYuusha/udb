@@ -1,5 +1,20 @@
 $(document).ready(function () {
     console.log("ready!");
+    var home = document.getElementById('home_background');
+    home.load();
+    var home_cover = document.getElementById('home_cover');
+    home_cover.load();
+    
+    var ilustracion = document.getElementById('ilustracion-vid');
+    ilustracion.load();
+    var editorial = document.getElementById('editorial-vid');
+    editorial.load();
+    var digital = document.getElementById('digital-vid');
+    digital.load();
+    var uxui = document.getElementById('uxui-vid');
+    uxui.load();
+    var branding = document.getElementById('branding-vid');
+    branding.load();
 
     $(window).scroll(function () {
         // alert(($(window).scrollTop() / 10000))
@@ -27,6 +42,7 @@ $(document).ready(function () {
 
         }
     })
+
 })
 
 

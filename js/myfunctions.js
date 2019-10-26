@@ -1,10 +1,11 @@
+
 $(document).ready(function () {
     console.log("ready!");
     var home = document.getElementById('home_background');
     home.load();
     var home_cover = document.getElementById('home_cover');
     home_cover.load();
-    
+
     var ilustracion = document.getElementById('ilustracion-vid');
     ilustracion.load();
     var editorial = document.getElementById('editorial-vid');
@@ -15,6 +16,9 @@ $(document).ready(function () {
     uxui.load();
     var branding = document.getElementById('branding-vid');
     branding.load();
+    // branding.onloadeddata = () => { alert('termino branding') }
+
+
 
     $(window).scroll(function () {
         // alert(($(window).scrollTop() / 10000))
@@ -194,3 +198,4 @@ function playVideo() {
     first.play()
 
 }
+

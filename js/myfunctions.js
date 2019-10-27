@@ -51,15 +51,15 @@ $(document).ready(function () {
     }
 
 
-    $(window).load(function () {
-        document.getElementById('site-container').style.display = 'block'
-        document.getElementById('loading-container').style.display = 'none'
-        // if (digital_flag && home_flag && cover_flag && editorial_flag && branding_flag && uxui_flag && ilustracion_flag) {
-        // }
-        // else{
-        //     alert('not yet')
-        // }
-    });
+    // $(window).load(function () {
+    //     document.getElementById('site-container').style.display = 'block'
+    //     document.getElementById('loading-container').style.display = 'none'
+    //     // if (digital_flag && home_flag && cover_flag && editorial_flag && branding_flag && uxui_flag && ilustracion_flag) {
+    //     // }
+    //     // else{
+    //     //     alert('not yet')
+    //     // }
+    // });
 
 
 
@@ -93,7 +93,10 @@ $(document).ready(function () {
 })
 
 
-
+displayContent = () => {
+    document.getElementById('site-container').style.display = 'block'
+    document.getElementById('loading-container').style.display = 'none'
+}
 
 showIlustration = () => {
     let il = document.getElementById('carousel-ilustracion')

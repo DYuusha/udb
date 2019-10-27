@@ -4,6 +4,49 @@ html {
   overflow-x: hidden;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #5600eb;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+
+#site-container {
+  display: none;
+}
+
+#loading-container {
+  display: flex;
+}
+
+/* Safari */
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @font-face {
   font-family: 'montse';
   src: url('../fonts/Montserrat-Regular.ttf') format('ttf'),
@@ -175,7 +218,8 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 .site-navbar .site-navigation .site-menu {
   margin-bottom: 0;
 }
-.morph19{
+
+.morph19 {
   height: 5rem;
 }
 
@@ -1073,7 +1117,7 @@ a:hover {
   .sixtynine img {
     width: 35rem;
   }
-  .h-section{
+  .h-section {
     height: 76rem;
   }
 }
@@ -1156,7 +1200,7 @@ a:hover {
     width: 28px;
     height: 28px;
   }
-  .morph19{
+  .morph19 {
     height: 4rem;
   }
   .fb img {
@@ -1246,7 +1290,7 @@ a:hover {
   .header {
     top: 10%;
   }
-  .morph19{
+  .morph19 {
     height: 2rem;
   }
   /* .redes{
@@ -1388,4 +1432,3 @@ video {
 .h-main {
   height: 80rem;
 }
-

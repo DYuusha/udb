@@ -18,7 +18,11 @@ $(document).ready(function () {
     branding.load();
     // branding.onloadeddata = () => { alert('termino branding') }
 
-
+    home.onloadeddata = () => {
+        // alert('Termino de cargar')
+        document.getElementById('site-container').style.display ='block'
+        document.getElementById('loading-container').style.display ='none'
+    }
 
     $(window).scroll(function () {
         // alert(($(window).scrollTop() / 10000))

@@ -52,13 +52,13 @@ $(document).ready(function () {
 
 
     $(window).load(function () {
-        if (digital_flag && home_flag && cover_flag && editorial_flag && branding_flag && uxui_flag && ilustracion_flag) {
-            document.getElementById('site-container').style.display = 'block'
-            document.getElementById('loading-container').style.display = 'none'
-        }
-        else{
-            alert('not yet')
-        }
+        document.getElementById('site-container').style.display = 'block'
+        document.getElementById('loading-container').style.display = 'none'
+        // if (digital_flag && home_flag && cover_flag && editorial_flag && branding_flag && uxui_flag && ilustracion_flag) {
+        // }
+        // else{
+        //     alert('not yet')
+        // }
     });
 
 

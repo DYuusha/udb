@@ -1402,6 +1402,10 @@ a:hover {
   .section-4 {
     height: 65rem;
   }
+  .menu-logo{
+    width: 1rem;
+    height: 2rem;
+  }
 }
 
 video {

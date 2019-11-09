@@ -18,6 +18,55 @@ html {
   animation: spin 1.5s linear infinite;
 }
 
+.porta-digital{
+  background-color: #6ad841;
+}
+.porta-ilustracion{
+  background-color: #ffa200;
+}
+.porta-uiux{
+  background-color: #39d3d3;
+}
+.porta-editorial{
+  background-color: #d91dbc;
+}
+.porta-branding{
+  background-color: #5600ea;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?51jxrh');
+  src:  url('fonts/icomoon.eot?51jxrh#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?51jxrh') format('truetype'),
+    url('fonts/icomoon.woff?51jxrh') format('woff'),
+    url('fonts/icomoon.svg?51jxrh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-behance2:before {
+  content: "\eaa9";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
 
 #site-container {
   display: none;
@@ -691,6 +740,9 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   }
 }
 
+.img-portfolio{
+  width: 135px;
+}
 .intro-section:after {
   content: "";
   position: absolute;
@@ -1235,6 +1287,7 @@ a:hover {
     width: 10rem;
     top: 30%;
   }
+
   .sec-3-naming-left {
     left: 1rem;
   }
@@ -1251,6 +1304,8 @@ a:hover {
   .section-4 {
     height: 55rem;
   }
+
+
   .sixtynine img {
     width: 25rem;
   }

@@ -102,8 +102,8 @@ const portafolios_ilustracion = [
     { nombre: 'Luis Montoya', behance: 'https://www.behance.net/luis_montocb12', linkedin: 'http://www.linkedin.com/in/luis-montoya-b00391197', logo: './images/logos/Ilustracion/luis-garcia.png' },
     { nombre: 'Alejandra Henríquez', behance: 'https://www.behance.net/paolavarela', linkedin: 'https://www.linkedin.com/in/pao-varela-1b5391197/', logo: './images/logos/Ilustracion/alejandra-henriquez.png' },
     { nombre: 'Gabriela Castro', behance: 'https://www.behance.net/gabrielacastro1', linkedin: 'https://www.linkedin.com/in/gabriela-castro-482838137/', logo: './images/logos/Ilustracion/gabriela-castro.png' },
-    { nombre: 'David Morales', behance: 'https://www.behance.net/DavidMoralezDH1', linkedin: 'https://www.linkedin.com/in/david-morales-822287196/', logo: './images/logos/Ilustracion/gabriela-castro.png' },
-    { nombre: 'Ingrid Trujillo', behance: 'https://www.behance.net/fabiolatrubb78', linkedin: 'https://www.linkedin.com/in/fabss-trujillo-492b27148/', logo: './images/logos/Ilustracion/david-morales.png' }]
+    { nombre: 'David Morales', behance: 'https://www.behance.net/DavidMoralezDH1', linkedin: 'https://www.linkedin.com/in/david-morales-822287196/', logo: './images/logos/Ilustracion/david-morales.png' },
+    { nombre: 'Ingrid Trujillo', behance: 'https://www.behance.net/fabiolatrubb78', linkedin: 'https://www.linkedin.com/in/fabss-trujillo-492b27148/', logo: './images/logos/Ilustracion/fabiola-trujillo.png' }]
 const portafolios_editorial = [
     { nombre: 'María José Landaverde', behance: 'https://www.behance.net/majo22landaverde', linkedin: 'https://www.linkedin.com/in/mar%C3%ADa-jos%C3%A9-landaverde-820249133/', logo: './images/logos/Editorial/majo-landaverde.png' },
     { nombre: 'Karla Cruz', behance: 'https://www.behance.net/karla_Cruz', linkedin: 'https://www.linkedin.com/in/karla-cruz-bb279a196/', logo: './images/logos/Editorial/karla-lopez.png' },
